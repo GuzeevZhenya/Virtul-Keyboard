@@ -207,6 +207,6 @@ const Keyboard = {
   },
 };
 
-window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded',()=> {
   Keyboard.init();
 });
